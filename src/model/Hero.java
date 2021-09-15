@@ -18,7 +18,7 @@ public class Hero extends AbstractCharacters{
     public boolean enoughFightPoints(int fp){
         return (fightPoints - fp) > 0;
     }
-//d
+//d/
     public boolean allowAttack(int prob,int fp){
         return effectiveHit(prob) & enoughFightPoints(fp);
     }
